@@ -1,0 +1,11 @@
+name: Manual Check
+
+on:
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet
+        run: echo "AAPL options expiration tracker is up to date."
